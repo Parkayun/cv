@@ -1,0 +1,15 @@
+            <section class="section more-section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.more.icon }}"></i>{{ i18n "more" }}</h2>
+
+				{{ range .Site.Params.more.list }}
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">{{ .detail }}</h3>
+                        </div><!--//upper-row-->
+                        <div class="company">{{ if .link }}<a href="{{ .link }}" target="_blank">{{ .name }}</a>{{ end }}</div>
+                    </div><!--//meta-->
+                </div><!--//item-->
+				{{ end }}
+
+            </section><!--//section-->

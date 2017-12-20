@@ -1,0 +1,19 @@
+            <section class="section challenges-section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.challenges.icon }}"></i>{{ i18n "challenges" }}</h2>
+
+				{{ range .Site.Params.challenges.list }}
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">{{ .result }}</h3>
+                            <div class="time">{{ .dates }}</div>
+                        </div><!--//upper-row-->
+                        <div class="company">{{ .name }}</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+				{{ end }}
+
+            </section><!--//section-->
