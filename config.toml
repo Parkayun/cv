@@ -66,8 +66,8 @@ disableKinds = ["404", "RSS", "sitemap"]
         title = "Education"
 
         [[params.education.list]]
-        degree = "Business Administration"
-        college = "Kookmin University"
+        degree = "Department of AIF"
+        college = "Konkuk University"
         dates = "2018 - Present"
 
         [[params.education.list]]
