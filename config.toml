@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://parkayun.kr/"
+baseurl = "http://parkayun.kr/public/"
 languageCode = "en-us"
 title = "I am Ayun Park."
 theme = "hugo-orbit-theme"
@@ -66,7 +66,7 @@ disableKinds = ["404", "RSS", "sitemap"]
         title = "Education"
 
         [[params.education.list]]
-        degree = "Department of AIF"
+        degree = "College of Engineering"
         college = "Konkuk University"
         dates = "2018 - Present"
 
