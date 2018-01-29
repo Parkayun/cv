@@ -99,9 +99,15 @@ disableKinds = ["404", "RSS", "sitemap"]
         title = "Experiences"
 
         [[params.jobs.list]]
+        position = "Co-Foundr & CTO"
+        dates = "2018.01 - Present"
+        company = "AMIN Partners"
+        details = ""
+
+        [[params.jobs.list]]
         position = "Data Engineer"
-        dates = "2017.11 - Present"
-        company = "Nexon Korea, Seoul"
+        dates = "2017.11 - 2018.01"
+        company = "Nexon Korea, Pangyo"
         details = ""
 
         [[params.jobs.list]]
