@@ -99,9 +99,15 @@ disableKinds = ["404", "RSS", "sitemap"]
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Co-Foundr & CTO"
+        position = "Founder & CEO"
+        dates = "2018.05 - Present"
+        company = "TOKENEXT"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "Co-Founder & CTO"
         dates = "2018.01 - Present"
-        company = "AMIN Partners"
+        company = "AMIN PARTNERS"
         details = ""
 
         [[params.jobs.list]]
