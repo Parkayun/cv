@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://parkayun.kr/public/"
+baseurl = "https://cv.parkayun.kr/public/"
 languageCode = "en-us"
 title = "I am Ayun Park."
 theme = "hugo-orbit-theme"
